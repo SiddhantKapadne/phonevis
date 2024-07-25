@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    margin: 0px 250px 50px 250px;
+    background-color: rgb(246, 246, 246);
+}
+a{
+    padding: 13px;
+    float: right;
+    color: rgb(88, 88, 216);
+}
+header{
+    background-color: #1f1f1f;
+}
+header h1{
+    color: rgb(228, 241, 239);
+    padding-left: 15px;
+}
+img{
+    padding-left: 15px;
+}
+.svgBlur{
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+h2{
+    padding-left: 15px;
+    height: 45px;
+    color: rgb(34, 38, 37);
+}
+p{
+    padding-left: 15px;
+    color: rgb(89, 89, 89);
+    width: 60%;
+}
+iframe{
+    padding-left: 15px;
+    border: none;
+}
+@keyframes example {
+    0%   {filter: blur(1px);}
+    25%  {filter: blur(8px);}
+    50%  {filter: blur(49px);}
+    75%  {filter: blur(9px);}
+    100% {filter: blur(2px);}
+  }
