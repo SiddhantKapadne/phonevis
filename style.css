@@ -3,6 +3,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: column;
     background-color: #fff;
+    color: rgb(31, 41, 40);
 }
 body .mainStr{
     margin: 0px 360px 0px 360px;
