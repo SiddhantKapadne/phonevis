@@ -80,15 +80,20 @@
     }
 
     /* Tablet and Mobile Responsive Design */
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 1024px) and (min-width: 769px) {
+        /* Tablet breakpoint (e.g., iPad landscape/portrait) */
         body .mainStr{
             margin: 0px 40px;
         }
         
+        header h1{
+            font-size: 2.2em;
+        }
+
         .txtStory p{
             width: 100%;
             line-height: 1.5;
-            font-size: 0.95em;
+            font-size: 1em;
         }
         
         .txtStory img{
@@ -97,7 +102,13 @@
         }
 
         .headImg p {
-            font-size: 0.9em;
+            font-size: 0.95em;
+            margin-top: 35px;
+        }
+
+        a {
+            padding: 10px;
+            font-size: 1em;
         }
 
         .coverIMG img {
@@ -109,7 +120,8 @@
         }
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) and (min-width: 481px) {
+        /* Mobile landscape and small tablets */
         body .mainStr{
             margin: 0px 20px;
         }
@@ -149,6 +161,7 @@
     }
 
     @media only screen and (max-width: 480px) {
+        /* Mobile portrait */
         body .mainStr{
             margin: 0px 15px;
         }
